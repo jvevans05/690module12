@@ -150,19 +150,19 @@
 
 // STEP 9
 
-const Doug = 'The dolphins had long known of the impending demolition of Earth and had made many attempts to alert mankind to the danger...The last ever dolphins message was misinterpreted as a surprisingly sophisticated attempt to do a double backward somersault through a hoop whilst whistling \"The Star-Spangled Banner\", but in fact the message was this: \"So Long, and Thanks for All the Fish.\"'
+// const Doug = 'The dolphins had long known of the impending demolition of Earth and had made many attempts to alert mankind to the danger...The last ever dolphins message was misinterpreted as a surprisingly sophisticated attempt to do a double backward somersault through a hoop whilst whistling \"The Star-Spangled Banner\", but in fact the message was this: \"So Long, and Thanks for All the Fish.\"'
 
-const word = 'dolphins'
+// const word = 'dolphins'
 
-let pattern = new RegExp(word) 
-pattern = pattern + 'g'
-String.prototype.findWords = function(paragraph, countThisWord) {
-    paragraph.match(/[countThisWord]/g)
-}
+// let pattern = new RegExp(word) 
+// pattern = pattern + 'g'
+// String.prototype.findWords = function(paragraph, countThisWord) {
+//     paragraph.match(/[countThisWord]/g)
+// }
 
-console.log(Doug.findWords(Doug, word))
-console.log(pattern)
-console.log(Doug.matchAll(word))
+// console.log(Doug.findWords(Doug, word))
+// console.log(pattern)
+// console.log(Doug.matchAll(word))
 
 
 // I know this is not great work, but I am super burned out from work. Sorry for the weak finish.
